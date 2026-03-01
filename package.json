@@ -1,2 +1,12 @@
-npm init -y
-npm install playwright
+{
+  "name": "scraper-project",
+  "version": "1.0.0",
+  "description": "Playwright scraper",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "playwright": "^1.42.0"
+  }
+}
